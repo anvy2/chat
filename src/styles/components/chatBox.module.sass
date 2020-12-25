@@ -1,0 +1,93 @@
+@use '../base'
+
+.box
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    // border: 2px solid grey
+    height: 92vh
+    width: auto
+    margin: 2px 0px 0px 0px
+    flex-shrink: 0
+
+.container
+    width: auto
+    height: 95%
+    border: 1px solid black
+    overflow: auto
+    background: #a3b5c2
+    // border: 5px solid red
+    // padding: 0px 2pxpx
+
+.list
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    margin: 0px 0px 5px 0px
+    list-style: none
+    // border: 5px solid magenta
+
+    padding: 1px 1px 1px 1px
+
+.list li
+    width: auto
+    word-wrap: break-word
+    margin: 3px
+    border-radius: 3px
+    // border: 2px solid black
+    min-height: 25px
+    margin: 1px
+    padding: 2px 5px
+    // padding: 0px 15px
+
+.left_li
+    display: flex
+    flex-direction: row
+
+.left_li span.username
+    background-color: #526786
+
+.right_li
+    display: flex
+    flex-direction: row-reverse
+    justify-content: flex-start
+
+.right_li span.username
+    background-color: #716b8b
+
+.username
+    // border: 1px solid black
+    border-radius: 5px
+    padding: 1px 4px
+
+.text
+    padding: 0px 4px
+    // border: 1px solid black
+    padding: 2px 5px 1px 5px
+    border-radius: 5px
+
+.icon
+    padding: 2px 4px
+    // border: 1px solid red
+
+.messageForm
+    display: flex
+    justify-content: space-between
+    min-height: 35px
+    width: 100%
+    height: 4%
+    margin-top: 5px
+    // border: 3px solid red
+
+.messageForm input
+    // border: 2px solid black
+    width: inherit
+    margin-right: 10px
+
+.messageForm button
+    // border: 2px solid magenta
+    width: 40px
+    margin-right: 4px
+    padding: 0px
+    &:focus
+        outline: none
